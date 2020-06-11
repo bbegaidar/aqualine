@@ -1,0 +1,201 @@
+@import 'fonts.css';
+body{
+    font-family: 'Evolventa';
+    color: white;
+    background-color: #ffffff;
+background-image: -webkit-linear-gradient(left, #384e67 0%, #517ea1 100%);
+background-image: -o-linear-gradient(left, #384e67 0%, #517ea1 100%);
+background-image: linear-gradient(to right, #384e67 0%, #517ea1 100%);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.logoimg{
+    margin-top: -10px;
+    margin-left: -18px;
+}
+.logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.logop{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+.phone{
+    width: 23px;
+    height: 37px;
+    margin-top: 27px;
+    margin-left: 280px;
+}
+select{
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+    margin-right: -20px;
+    margin-top: 20px;
+     border-radius: 25px;
+    font-size: 130%;
+    padding-left: 10px;
+}
+.open{
+    margin: 55px;
+}
+.vlevo{
+    float: left;
+    cursor: pointer;
+}
+.nazad{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+hr{
+    margin-top: 60px;
+}
+.img1{
+    float: left;
+    margin-top: 30px;
+}
+.p1{
+    margin-top:  40px;
+    font-size: 48px;
+line-height: 45px;
+text-transform: uppercase;
+    margin-left: 150px;
+}
+.p2{
+    font-size: 30px;
+    line-height: 35px;
+}
+.yell{
+    color: #fec033;
+}
+.p3{
+    font-size: 30px;
+}
+.p4{
+    font-size: 30px;
+    margin-left:60px;
+    line-height: 35px;
+}
+.p5{
+    margin-top: -10px;
+    font-size: 30px;
+    margin-left:60px;
+    line-height: 35px;
+}
+.img2{
+    float: left;
+}
+button{
+    width: 299px;
+height: 71px;
+background-color: #ffffff;
+background-image: -webkit-linear-gradient(right, #fbf044 0%, #e8a745 100%);
+background-image: linear-gradient(to left, #fbf044 0%, #e8a745 100%);
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 245px;
+    cursor: pointer;
+}
+.foot{
+    margin-top: 20px;
+    margin-left: 260px;
+}
+footer{
+    margin-top: 260px;
+}
+.bulit{
+    float: left;
+}
+.p5{
+
+}
+.modal-content1{
+    margin-left: 90px;
+}
+.modalbut{
+    background-color: #ffffff;
+    background-image: -webkit-linear-gradient(right, #fff027 0%, #fda939 100%);
+background-image: linear-gradient(to left, #fff027 0%, #fda939 100%);
+    font-size: 20px;
+    color: black;
+    width: 250px;
+height: 60px;
+    border: 0;
+    text-transform: uppercase;
+    margin-left:  200px;
+    margin-top: 30px;
+}
+.modalp{
+font-size: 26px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.modalb{
+font-size: 30px;
+    padding-left: 165px;
+}
+.inputmodal {
+    margin-left: 30px;
+    height: 80px;
+    width: 600px;
+    background-color: rgb(0,0,0,0);
+    margin-top: 20px;
+    border: 2px solid #ffffff;
+    font-size: 26px;
+    padding-left: 10px;
+}
+input::-moz-placeholder { color: white; }
+input::-webkit-input-placeholder { color: white; }
+
+
+button{
+     box-shadow: 2px 0px 29px -4px #000000;
+    border: none;
+}
+
+.black_loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 5000;
+    display: none;
+}
+
+.black_loader img {
+    width: 5vw;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.fActive{
+    display: block !important;
+}
+.fNone{
+    display: none;
+}
+.fancyform{
+}
+.fancyform2{
+    margin-top: 200px;
+    margin-left: 150px;
+    display: none;
+}
+.fancyform2 p{
+    font-size: 30px;
+}
